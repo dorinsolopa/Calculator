@@ -1,0 +1,20 @@
+.padComponent {
+ 
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  display: block;
+  max-width: 300px;
+  margin: auto;
+ 
+}
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+  background-color: rgb(11, 227, 173, 0.4);
+  color: rgb(3, 2, 3);
+  border-radius: 10px;
+  border: 1px solid green;
+
+}

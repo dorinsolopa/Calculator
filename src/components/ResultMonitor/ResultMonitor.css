@@ -1,0 +1,17 @@
+.monitor {
+  height: 60px;
+  background-color: rgb(11, 227, 173, 0.4);
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 15px;
+  border: 1px solid green;
+}
+
+.monitor p {
+  font-size: 40px;
+  margin: 5px;
+}
