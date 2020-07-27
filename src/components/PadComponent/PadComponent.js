@@ -103,17 +103,17 @@ class PadComponent extends React.Component {
         </button>
         <button
           style={{ backgroundColor: "#f2ee0a" }}
-          name="×"
+          name="*"
           onClick={(event) => this.props.onClick(event.target.name)}
         >
-          ×
+          *
         </button>
 
         <button
-          name="·"
+          name="."
           onClick={(event) => this.props.onClick(event.target.name)}
         >
-          ·
+          .
         </button>
         <button
           name="0"
@@ -130,10 +130,10 @@ class PadComponent extends React.Component {
         </button>
         <button
           style={{ backgroundColor: "#ad05f5" }}
-          name="÷"
+          name="/"
           onClick={(event) => this.props.onClick(event.target.name)}
         >
-          ÷
+          /
         </button>
       </div>
     );
